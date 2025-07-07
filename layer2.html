@@ -1,0 +1,27 @@
+---
+layout: default
+title: Layer 2 Guides
+---
+
+<div class="articles-grid">
+  {% for post in site.categories.layer2 %}
+  <article class="article-card">
+    <div class="article-image">Layer 2 Guide</div>
+    <div class="article-content">
+      <h3 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <div class="article-meta">
+        <span class="article-category">Layer 2</span>
+        <span>{{ post.date | date: "%B %d, %Y" }}</span>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% if site.categories.layer2.size == 0 %}
+<div style="text-align: center; padding: 4rem 2rem;">
+  <h2>Coming Soon!</h2>
+  <p>Layer 2 guides will be published here soon.</p>
+</div>
+{% endif %}
