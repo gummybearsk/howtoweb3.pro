@@ -31,18 +31,17 @@ A crypto wallet is software or hardware that:
 - Lets you send and receive coins
 - Connects to blockchain networks
 
-### Analogy:
-A crypto wallet is like a digital vault. Your coins aren't inside it—the wallet holds the keys to unlock them on the blockchain.
+**Analogy:** A crypto wallet is like a digital vault. Your coins aren't inside it—the wallet holds the keys to unlock them on the blockchain.
 
 ## Why Choosing the Right Wallet Matters
 
 ### Key Reasons to Choose Carefully
 
-✅ Keep your crypto secure  
-✅ Avoid scams and hacks  
-✅ Control transaction fees  
-✅ Access different blockchains or dApps  
-✅ Manage your crypto safely long-term  
+- **Keep your crypto secure**
+- **Avoid scams and hacks**
+- **Control transaction fees**
+- **Access different blockchains or dApps**
+- **Manage your crypto safely long-term**
 
 ### Crypto Wallet Importance
 
@@ -62,8 +61,11 @@ Installed on:
 - Computers
 - Browsers (e.g. MetaMask)
 
-✅ Instant transactions  
-🚫 Vulnerable to hacking if your device is compromised
+**Pros:**
+- Instant transactions
+
+**Cons:**
+- Vulnerable to hacking if your device is compromised
 
 ### 2. Cold Wallets (Hardware)
 
@@ -71,26 +73,34 @@ Physical devices like:
 - Ledger Nano
 - Trezor
 
-✅ Highest security  
-🚫 Costs $50–$200  
-🚫 Less convenient for frequent use
+**Pros:**
+- Highest security
+
+**Cons:**
+- Costs $50–$200
+- Less convenient for frequent use
 
 ### 3. Paper Wallets
 
 Printed keys or QR codes on paper.
 
-✅ No hacking risk  
-🚫 Easily lost or damaged
+**Pros:**
+- No hacking risk
+
+**Cons:**
+- Easily lost or damaged
 
 ### 4. Custodial Wallets
 
 Exchanges hold your keys (e.g. Binance, Coinbase).
 
-✅ Easy for beginners  
-🚫 Platform controls your funds
+**Pros:**
+- Easy for beginners
 
-### Analogy:
-A custodial wallet is like keeping your money in a bank. A non-custodial wallet is like storing cash in your personal safe.
+**Cons:**
+- Platform controls your funds
+
+**Analogy:** A custodial wallet is like keeping your money in a bank. A non-custodial wallet is like storing cash in your personal safe.
 
 ## How to Choose a Crypto Wallet — Step by Step
 
@@ -112,9 +122,9 @@ Not all wallets support every blockchain. Check:
 ### Step 3 — Research Security Features
 
 Look for:
-✅ Two-factor authentication  
-✅ Seed phrase backups  
-✅ Open-source code (preferable)
+- Two-factor authentication
+- Seed phrase backups
+- Open-source code (preferable)
 
 ### Step 4 — Consider Ease of Use
 
@@ -129,55 +139,60 @@ Look for:
 
 ### Step 6 — Check Community Reputation
 
-✅ Read:
+Read:
 - Reviews
 - Community posts
 - Security incident history
 
 ### Flowchart — Choosing a Wallet
 
-```
-Hot or Cold?
-    ↓
-Check Coins Supported
-    ↓
-Evaluate Security
-    ↓
-Consider Usability
-    ↓
-Compare Costs
-    ↓
-Check Reputation
-```
+1. Hot or Cold?
+2. Check Coins Supported
+3. Evaluate Security
+4. Consider Usability
+5. Compare Costs
+6. Check Reputation
 
 ## Comparing Popular Wallets
 
 ### MetaMask (Hot Wallet)
 
-✅ Free  
-✅ Supports Ethereum, Polygon, BNB Chain  
-✅ Browser extension & mobile app  
-🚫 Vulnerable to phishing attacks
+**Pros:**
+- Free
+- Supports Ethereum, Polygon, BNB Chain
+- Browser extension & mobile app
+
+**Cons:**
+- Vulnerable to phishing attacks
 
 ### Ledger Nano (Cold Wallet)
 
-✅ Very secure  
-✅ Supports 5,000+ tokens  
-🚫 Costs $79+  
-🚫 Not as convenient for daily use
+**Pros:**
+- Very secure
+- Supports 5,000+ tokens
+
+**Cons:**
+- Costs $79+
+- Not as convenient for daily use
 
 ### Trust Wallet (Hot Wallet)
 
-✅ Mobile-friendly  
-✅ Multi-chain support  
-✅ Staking and NFT support  
-🚫 Not open-source anymore
+**Pros:**
+- Mobile-friendly
+- Multi-chain support
+- Staking and NFT support
+
+**Cons:**
+- Not open-source anymore
 
 ### Coinbase Wallet
 
-✅ Custodial and non-custodial versions  
-✅ User-friendly  
-🚫 Limited privacy compared to cold storage
+**Pros:**
+- Custodial and non-custodial versions
+- User-friendly
+
+**Cons:**
+- Limited privacy compared to cold storage
 
 ### Wallet Comparison Table
 
@@ -190,13 +205,15 @@ Check Reputation
 
 ## Best Practices & Common Mistakes
 
-### ✅ Do This:
+### Do This:
+
 - Write down your seed phrase on paper (never digital)
 - Bookmark official sites
 - Start with small amounts
 - Enable two-factor authentication
 
-### 🚫 Don't Do This:
+### Don't Do This:
+
 - Never share your seed phrase
 - Avoid random links or DMs offering wallet help
 - Don't store large amounts in hot wallets
@@ -204,21 +221,26 @@ Check Reputation
 ## FAQs
 
 ### Are hardware wallets necessary?
+
 Not required, but safest for large amounts.
 
 ### Can wallets hold NFTs?
+
 Yes—wallets like MetaMask and Trust Wallet support NFTs.
 
 ### What if I lose my seed phrase?
+
 Funds are gone forever if you can't recover your wallet.
 
 ### Are hot wallets safe?
+
 Mostly safe if you:
-✅ Protect devices  
-✅ Avoid phishing scams  
-✅ Never share seed phrase
+- Protect devices
+- Avoid phishing scams
+- Never share seed phrase
 
 ### Do wallets charge fees?
+
 Wallets themselves are often free. Transaction fees come from the blockchain network.
 
 ## Conclusion
@@ -226,10 +248,10 @@ Wallets themselves are often free. Transaction fees come from the blockchain net
 Choosing the right crypto wallet is the first step toward secure, confident crypto ownership.
 
 Remember:
-✅ Decide hot vs. cold  
-✅ Research coins supported  
-✅ Protect your seed phrase  
-✅ Check security and reputation
+- Decide hot vs. cold
+- Research coins supported
+- Protect your seed phrase
+- Check security and reputation
 
 By following this guide, you'll keep your crypto safe while enjoying all the possibilities of Web3.
 
