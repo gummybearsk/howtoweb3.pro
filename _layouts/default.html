@@ -158,21 +158,21 @@
             line-height: 1.8;
         }
 
-        .page-content h1, .page-content h2, .page-content h3 {
+       .page-content h1 {
+            display: none; /* Hide H1 in content since we show it in header */
+        }
+
+        .page-content h2, .page-content h3 {
             margin-top: 2rem;
             margin-bottom: 1rem;
             color: #2d3748;
         }
 
-        .page-content h1 {
-            font-size: 2rem;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 0.5rem;
-        }
-
         .page-content h2 {
             font-size: 1.5rem;
             color: #4a5568;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.5rem;
         }
 
         .page-content h3 {
