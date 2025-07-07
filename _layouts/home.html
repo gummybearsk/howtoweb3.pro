@@ -1,0 +1,367 @@
+---
+layout: default
+---
+
+<style>
+    /* Hero Section */
+    .hero {
+        padding: 4rem 0;
+        text-align: center;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-button {
+        display: inline-block;
+        background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
+    }
+
+    .cta-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(72, 187, 120, 0.6);
+    }
+
+    /* Categories Grid */
+    .categories {
+        padding: 4rem 0;
+        background: white;
+    }
+
+    .categories h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        color: #2d3748;
+    }
+
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .category-card {
+        background: white;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        border: 1px solid #e2e8f0;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+        border-color: #667eea;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .category-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .category-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        color: #2d3748;
+    }
+
+    .category-card p {
+        color: #718096;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+    .article-count {
+        color: #667eea;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    /* Latest Articles Section */
+    .latest-articles {
+        padding: 4rem 0;
+        background: #f7fafc;
+    }
+
+    .latest-articles h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        color: #2d3748;
+    }
+
+    .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+    }
+
+    .article-card {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .article-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .article-image {
+        height: 200px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 4rem;
+    }
+
+    .article-content {
+        padding: 1.5rem;
+    }
+
+    .article-tag {
+        background: #edf2f7;
+        color: #4a5568;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .article-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: #2d3748;
+    }
+
+    .article-card p {
+        color: #718096;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+    .read-more {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .read-more:hover {
+        color: #5a67d8;
+    }
+
+    /* Category Colors */
+    .wallets { background: linear-gradient(135deg, #48bb78, #38a169); }
+    .defi { background: linear-gradient(135deg, #ed8936, #dd6b20); }
+    .nfts { background: linear-gradient(135deg, #9f7aea, #805ad5); }
+    .dapps { background: linear-gradient(135deg, #4299e1, #3182ce); }
+    .layer2 { background: linear-gradient(135deg, #38b2ac, #319795); }
+    .security { background: linear-gradient(135deg, #f56565, #e53e3e); }
+    .glossary { background: linear-gradient(135deg, #ecc94b, #d69e2e); }
+    .how-to-guides { background: linear-gradient(135deg, #667eea, #764ba2); }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+        }
+
+        .category-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .articles-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<section class="hero">
+    <div class="container">
+        <h1>Master Web3 Technology</h1>
+        <p>Your comprehensive guide to crypto wallets, DeFi, NFTs, and blockchain technology. Learn at your own pace with expert tutorials and guides.</p>
+        <a href="#categories" class="cta-button">Start Learning</a>
+    </div>
+</section>
+
+<section class="categories" id="categories">
+    <div class="container">
+        <h2>Explore Categories</h2>
+        <div class="category-grid">
+            <a href="{{ '/wallets/' | relative_url }}" class="category-card">
+                <div class="category-icon wallets">💼</div>
+                <h3>Crypto Wallets</h3>
+                <p>Learn about different wallet types, security best practices, and how to choose the right wallet for your needs.</p>
+                <div class="article-count">{{ site.categories.wallets.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/defi/' | relative_url }}" class="category-card">
+                <div class="category-icon defi">🏦</div>
+                <h3>DeFi Protocols</h3>
+                <p>Understand decentralized finance, yield farming, liquidity pools, and popular DeFi platforms.</p>
+                <div class="article-count">{{ site.categories.defi.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/nfts/' | relative_url }}" class="category-card">
+                <div class="category-icon nfts">🎨</div>
+                <h3>NFTs & Digital Art</h3>
+                <p>Explore non-fungible tokens, digital collectibles, minting, and NFT marketplaces.</p>
+                <div class="article-count">{{ site.categories.nfts.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/dapps/' | relative_url }}" class="category-card">
+                <div class="category-icon dapps">⚡</div>
+                <h3>Decentralized Apps</h3>
+                <p>Discover dApps, smart contracts, and how to interact with decentralized applications.</p>
+                <div class="article-count">{{ site.categories.dapps.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/layer2/' | relative_url }}" class="category-card">
+                <div class="category-icon layer2">🔗</div>
+                <h3>Layer 2 Solutions</h3>
+                <p>Learn about Polygon, Arbitrum, Optimism, and other scaling solutions for Ethereum.</p>
+                <div class="article-count">{{ site.categories.layer2.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/security/' | relative_url }}" class="category-card">
+                <div class="category-icon security">🛡️</div>
+                <h3>Security & Safety</h3>
+                <p>Protect yourself from scams, secure your assets, and follow crypto security best practices.</p>
+                <div class="article-count">{{ site.categories.security.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/glossary/' | relative_url }}" class="category-card">
+                <div class="category-icon glossary">📚</div>
+                <h3>Crypto Glossary</h3>
+                <p>Definitions and explanations of important Web3 and cryptocurrency terminology.</p>
+                <div class="article-count">{{ site.categories.glossary.size | default: 0 }} Articles</div>
+            </a>
+            
+            <a href="{{ '/how-to-guides/' | relative_url }}" class="category-card">
+                <div class="category-icon how-to-guides">🎯</div>
+                <h3>How-To Guides</h3>
+                <p>Step-by-step tutorials for common Web3 tasks, from beginner to advanced level.</p>
+                <div class="article-count">{{ site.categories.how-to-guides.size | default: 0 }} Articles</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="latest-articles">
+    <div class="container">
+        <h2>Latest Articles</h2>
+        <div class="articles-grid">
+            {% assign latest_posts = site.posts | limit: 6 %}
+            {% for post in latest_posts %}
+            <a href="{{ post.url | relative_url }}" class="article-card">
+                <div class="article-image">
+                    {% if post.categories contains 'wallets' %}💼
+                    {% elsif post.categories contains 'defi' %}🏦
+                    {% elsif post.categories contains 'nfts' %}🎨
+                    {% elsif post.categories contains 'dapps' %}⚡
+                    {% elsif post.categories contains 'layer2' %}🔗
+                    {% elsif post.categories contains 'security' %}🛡️
+                    {% elsif post.categories contains 'glossary' %}📚
+                    {% elsif post.categories contains 'how-to-guides' %}🎯
+                    {% else %}📄
+                    {% endif %}
+                </div>
+                <div class="article-content">
+                    {% if post.categories.first %}
+                        <span class="article-tag">{{ post.categories.first | capitalize }}</span>
+                    {% endif %}
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                    <span class="read-more">Read More →</span>
+                </div>
+            </a>
+            {% endfor %}
+            
+            {% if site.posts.size == 0 %}
+            <!-- Fallback sample articles when no posts exist -->
+            <div class="article-card">
+                <div class="article-image">💼</div>
+                <div class="article-content">
+                    <span class="article-tag">Wallets</span>
+                    <h3>How to Choose a Crypto Wallet - Beginner's Guide</h3>
+                    <p>Complete guide to selecting the right cryptocurrency wallet for your needs, comparing hot vs cold storage options.</p>
+                    <span class="read-more">Read More →</span>
+                </div>
+            </div>
+            
+            <div class="article-card">
+                <div class="article-image">🏦</div>
+                <div class="article-content">
+                    <span class="article-tag">DeFi</span>
+                    <h3>Understanding Yield Farming and Liquidity Mining</h3>
+                    <p>Learn how to earn passive income through DeFi protocols, risks involved, and best strategies.</p>
+                    <span class="read-more">Read More →</span>
+                </div>
+            </div>
+            
+            <div class="article-card">
+                <div class="article-image">🎨</div>
+                <div class="article-content">
+                    <span class="article-tag">NFTs</span>
+                    <h3>NFT Marketplace Guide: OpenSea vs Foundation</h3>
+                    <p>Compare the top NFT marketplaces, fees, features, and which platform is best for your needs.</p>
+                    <span class="read-more">Read More →</span>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
