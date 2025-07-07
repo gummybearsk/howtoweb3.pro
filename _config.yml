@@ -1,5 +1,6 @@
-title: Web3 Guide
-description: Your Complete Guide to Decentralized Web
+# Site settings
+title: "HowToWeb3"
+description: "Your comprehensive guide to Web3 technology"
 baseurl: ""
 url: "https://howtoweb3.pro"
 
@@ -19,13 +20,63 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Categories
+# Categories (in display order)
 category_list:
-  - how-to-guides
   - wallets
-  - dapps
-  - nfts
-  - layer2
   - defi
+  - nfts
+  - dapps
+  - layer2
   - security
   - glossary
+  - how-to-guides
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Wallets" 
+    url: "/wallets/"
+  - title: "DeFi"
+    url: "/defi/"
+  - title: "NFTs"
+    url: "/nfts/"
+  - title: "dApps"
+    url: "/dapps/"
+  - title: "Layer 2"
+    url: "/layer2/"
+  - title: "Security"
+    url: "/security/"
+  - title: "Glossary"
+    url: "/glossary/"
+  - title: "How-To Guides"
+    url: "/how-to-guides/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# SEO
+author: "HowToWeb3"
+twitter:
+  username: "howtoweb3"
+social:
+  name: "HowToWeb3"
+  links:
+    - "https://howtoweb3.pro"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
