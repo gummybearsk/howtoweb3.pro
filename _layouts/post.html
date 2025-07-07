@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+  <header style="margin-bottom: 2rem; text-align: center;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: #333;">{{ page.title }}</h1>
+    <div style="color: #666;">
+      <span style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 0.3rem 1rem; border-radius: 15px; font-size: 0.9rem;">{{ page.categories[0] | capitalize }}</span>
+      <span style="margin-left: 1rem;">{{ page.date | date: "%B %d, %Y" }}</span>
+    </div>
+  </header>
+  
+  <div style="line-height: 1.8; font-size: 1.1rem;">
+    {{ content }}
+  </div>
+  
+  {% if page.tags %}
+  <footer style="margin-top: 3rem; text-align: center;">
+    <div>
+      {% for tag in page.tags %}
+      <span style="background: #f0f0f0; padding: 0.3rem 0.8rem; margin: 0.2rem; border-radius: 15px; font-size: 0.9rem; color: #666;">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </footer>
+  {% endif %}
+</article>
