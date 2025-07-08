@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Stake Ethereum for Rewards A Beginners Guide 2025"
+title: "How to Stake Ethereum for Rewards - A Beginners Guide 2025"
 categories: defi
 tags: [staking, ethereum, passive-income, crypto-rewards, lido]
 excerpt: "Learn how to stake ETH for rewards safely and easily, explaining staking basics, options, risks, and step-by-step instructions to earn passive crypto income."
