@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "nft-security-guide-how-to-protect-your-collection-2025"
+title: "NFT Security Guide: How to Protect Your Collection 2025"
 categories: nfts
 tags: [nft-security, cold-storage, phishing, scams, opensea]
 excerpt: "Learn how to protect your NFT collection from theft and scams with this comprehensive 2025 security guide covering wallets, transactions, and storage best practices."
