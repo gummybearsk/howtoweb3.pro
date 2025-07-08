@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAOs Complete Guide 2025 How They Work and How to Join"
+title: "DAOs Complete Guide 2025 - How They Work and How to Join"
 categories: dapps
 tags: [daos, governance, voting, proposals, treasury]
 excerpt: "The definitive 2025 guide to Decentralized Autonomous Organizations (DAOs) - how they function, major types, and how to participate effectively."
