@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "defi-risks-every-investor-should-know-in-2025"
+title: "DeFi Risks Every Investor Should Know in 2025"
 categories: defi
 tags: [defi-risks, smart-contracts, impermanent-loss, apy, auditing]
 excerpt: "A comprehensive guide to understanding and mitigating risks in decentralized finance (DeFi) including smart contract vulnerabilities, impermanent loss, and protocol risks."
