@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crypto Tax Guide 2025 Everything You Need to Know"
+title: "Crypto Tax Guide 2025: Everything You Need to Know"
 categories: how-to-guides
 tags: [taxes, crypto-tax, irs, capital-gains, defi]
 excerpt: "The complete 2025 guide to cryptocurrency taxation - covering capital gains, DeFi, NFTs, staking rewards, and international tax considerations."
