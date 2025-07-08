@@ -361,9 +361,6 @@
             <div class="content-wrapper">
                 {% if page.title %}
                 <div class="page-header">
-                    {% if page.categories %}
-                        <a href="/{{ page.categories[0] }}/" class="category-badge">{{ page.categories[0] | capitalize }}</a>
-                    {% endif %}
                     <h1 class="page-title">{{ page.title }}</h1>
                     {% if page.date %}
                         <div class="page-meta">
