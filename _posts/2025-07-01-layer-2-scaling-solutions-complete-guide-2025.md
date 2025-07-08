@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Layer 2 Scaling Solutions Complete Guide 2025"
+title: "Layer 2 Scaling Solutions: Complete Guide 2025"
 categories: layer2
 tags: [arbitrum, optimism, polygon, zksync, starknet, scaling]
 excerpt: "Everything you need to know about Ethereum Layer 2 solutions in 2025 - how they work, key differences, and how to bridge assets safely."
