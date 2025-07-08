@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Set Up MetaMask Wallet A Beginners Guide 2025"
+title: "How to Set Up MetaMask Wallet - A Beginners Guide 2025"
 categories: wallets
 tags: [metamask, ethereum, crypto-wallet, web3, defi]
 excerpt: "Learn how to set up MetaMask, the popular crypto wallet, step by step for storing Ethereum, NFTs, and connecting to dApps."
