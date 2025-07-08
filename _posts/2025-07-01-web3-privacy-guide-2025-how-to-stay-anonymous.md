@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "web3-privacy-guide-2025-how-to-stay-anonymous"
+title: "Web3 Privacy Guide 2025: How to Stay Anonymous"
 categories: security
 tags: [privacy, anonymity, vpns, mixers, zk-proofs]
 excerpt: "The essential 2025 guide to maintaining privacy in Web3 - covering wallets, transactions, browsing, and advanced anonymity techniques."
