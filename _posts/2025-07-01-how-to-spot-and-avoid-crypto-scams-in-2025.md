@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how-to-spot-and-avoid-crypto-scams-in-2025"
+title: "How to Spot and Avoid Crypto Scams in 2025"
 categories: security
 tags: [scams, safety, phishing, rug-pulls, security]
 excerpt: "Learn how to identify and avoid the most common crypto scams in 2025, including phishing, rug pulls, and fake support scams with real-world examples."
